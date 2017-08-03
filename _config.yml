@@ -3,8 +3,8 @@
 
 # Site settings
 
-title: Console
-email: jaeheelee0113@gmail.com
+title: Daniel
+email: dankim484@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Console theme simplifying Jekyll blog implementation process. Concise and fast theme.
 baseurl: "" # the subpath of your site, e.g. /blog
