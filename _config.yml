@@ -1,17 +1,14 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
+title: Daniel Kim - Aspiring Data Scientist
+description: "A blog about Data Science"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "https://dkim92.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
-username: lorem ipsum
+username: dkim92
 user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+email: dankim484@gmail.com
+github_username:  dkim92
+profile_picture: http://mrrobot.wikia.com/wiki/File:Elliot.png
 
 # Build settings
 markdown: kramdown
