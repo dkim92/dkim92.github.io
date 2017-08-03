@@ -1,68 +1,63 @@
-# Site Settings
-encoding: UTF-8
-exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
-lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
-permalink: /blog/:year/:month/:day/:title/
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
+# Site settings
+
+title: Console
+email: jaeheelee0113@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Console theme simplifying Jekyll blog implementation process. Concise and fast theme.
+baseurl: "" # the subpath of your site, e.g. /blog
+production_url: "http://localhost:3000"
+url: http://localhost:3000 # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /posts/:categories/:title
+
+# Footer social links if not provided then the icon would not be visible
+twitter_username: jaehee0113
+github_username:  jaehee0113
+youtube_username: jaehee0113
+linkedin_username: jaehee0113
+
+# Disqus settings (shortname is sufficient)
+disqus_shortname: Philsensus
+
+# txtpen settings (shortname is sufficient)
+txtpen_sitename: 
+
+# Build settings
+markdown: kramdown
 gems:
   - jekyll-feed
-  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-polyglot
   - jekyll-seo-tag
-  - jekyll-sitemap
+exclude:
+  - package.json
+  - Rakefile
+  - node_modules
+  - Gemfile
+  - console-theme.gemspec
+  - gulpfile.js
+  - assets/js
+  - assets/css
+  - screenshot.png
+  - LICENSE.txt
+  - README.md
 
-markdown: kramdown
-kramdown:
-  auto_id_prefix: 'heading-'
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-  toc_levels: 1..3
+# Jekyll paginate settings
+paginate: 5
+paginate_path: "/archive/page:num/"
 
-sass:
-  style: compressed
+# Related posts settings
+max_related_posts_num: 4
 
-# Site Data
-url: https://dkim92.github.io/# the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
-title: Daniel Kim
-description: "An aspriing Data Scientist"
-keywords: 'jekyll,theme,gem-based,blog'
-author:
-  name:
-  job_title:
-  location:
-  email:
-  social_links:
-    - name: facebook
-      url:
-    - name: github
-      url: https://github.com/dkim92
-    - name: instagram
-      url:
-    - name: linkedin
-      url:
-    - name: stackoverflow
-      url:
-    - name: twitter
-      url: 
-    - name: vk
-      url:
-home:
-  section1: <h1>Daniel Kim</h1>
-  section2: <h2>An aspiring Data Scientist</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/dkim92/" title="View on GitHub"></a></div>
-blog:
-  cc_license: # A link to CC License of your choice, e.g. http://creativecommons.org/licenses/by-sa/4.0/.
-  cc_license_image: # An image of your CC License, e.g. /assets/images/theme/cc-by-sa.png
-  footer_content: A gem-based responsive simple texture styled Jekyll theme.
+# sass settings (you can turn this on but please run gulp)
+#sass:
+#  sass_dir: _sass
+#  style: compressed
 
-disqus:
-  shortname:
-  public_key:
-google_analytics:
-addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/
-
-paths:
-  home: /
-  blog: /blog/
-  categories: /blog/categories/
-  tags: /blog/tags/
+# Jekyll polyglot settings
+languages: ["en"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: false
