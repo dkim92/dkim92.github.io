@@ -1,7 +1,7 @@
 # Site settings
 title: Daniel Kim
 description: aspiring Data Scientist
- baseurl: "https://dkim92.github.io/particle" # the subpath of your site, e.g. /blog
+ baseurl: "/blog" # the subpath of your site, e.g. /blog
  url: "https://dkim92.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
