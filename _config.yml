@@ -1,15 +1,15 @@
 # Site settings
 title: Daniel Kim
 description: aspiring Data Scientist
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://dkim92.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+ baseurl: "/projects" # the subpath of your site, e.g. /blog
+ url: "dkim92.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Daniel Kim
-user_description: An Aspiring data scientist with a background in information security and software development with the ability to perform regression, classification, and clustering on data sets. Has general knowledge of natural language processing, sentiment analysis, and recommendation systems. 
+user_description: An Aspiring data scientist with a background in information security and software development with the ability to perform regression, classification, and clustering on data sets. Has general knowledge of natural language processing, sentiment analysis, and recommendation systems.
 user_title: Aspiring Data Scientist
 email: dankim484@gmail.com
-github_username:  dkim92
+github_username:  lorem_ipsum
 
 # Google-analytics
 google-analytics:
